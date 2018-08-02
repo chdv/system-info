@@ -2,8 +2,10 @@
 Приложение отображает системную информацию из окружения Java runtime.
 
 Разработано с использованием следующих библиотек:
-	-сервер: spring-boot, spring-web, spring-security, tomcat (embeded)
-	-клиент: react, antd, primereact
+<ul>	
+	<li>сервер: spring-boot, spring-web, spring-security, tomcat (embeded)</li>
+	<li>клиент: react, antd, primereact</li>
+</ul>
 	
 Собранный дистрибутив находится в папке "Dist".
 Команда для запуска приложения: java -jar sysinfo-0.0.1-SNAPSHOT.jar
