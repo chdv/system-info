@@ -4,14 +4,17 @@
 Разработано с использованием следующих библиотек:
 <ul>	
 	<li>сервер: spring-boot, spring-web, spring-security, tomcat (embeded)</li>
-	<li>клиент: react, antd, primereact</li>
+	<li>клиент: react, eslint, babel, webpack, antd, primereact</li>
 </ul>
-	
+
+В папке sysinfo-client находятся исходные коды клиентской части, в папке sysinfo-server - серверной.
 Собранный дистрибутив находится в папке "Dist".
 Команда для запуска приложения: java -jar sysinfo-0.0.1-SNAPSHOT.jar
 После запуска автоматически откроется броузер.
-Протестировано на ОС Ubuntu 18.04 и ОС Windows 10 
+Протестировано на ОС Ubuntu 18.04 (OpenJdk 11) и ОС Windows 10 (OracleJdk 10)
 Логин и пароль для входа: admin/admin	
+
+Скриншоты:
 
 ![ScreenShot](https://github.com/chdv/system-info/blob/master/about/screenshots/01.png)
 
