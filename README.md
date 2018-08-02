@@ -4,7 +4,17 @@
 Разработано с использованием следующих библиотек:
 <ul>	
 	<li>сервер: spring-boot, spring-web, spring-security, tomcat (embeded)</li>
-	<li>клиент: react, eslint, babel, webpack, antd, primereact</li>
+	<li>клиент: react, antd, primereact</li>
+</ul>
+Средства разработки и сборки: 
+<ul>	
+	<li>сервер: IntelliJ Idea, maven</li>
+	<li>клиент: IntelliJ WebStorm, npm, webpack, babel, eslint</li>
+</ul>
+Команды для сборки и запуска: 
+<ul>	
+	<li>сервер: <ul><li>mvn spring-boot:run (запуск)</li><li>mvn clean package (сборка)</li></ul>
+	<li>клиент: <ul><li>npm install (инициализация)</li><li>npm start (запуск)</li><li>npm run-script build (сборка)</li></ul></li>
 </ul>
 
 В папке sysinfo-client находятся исходные коды клиентской части, в папке sysinfo-server - серверной.<br/>
