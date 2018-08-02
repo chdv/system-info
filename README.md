@@ -31,7 +31,8 @@
 В директории Docker находится Dockerfile и соответствующая сборка, в которой отключен запуск броузера. Для запуска приложения в контейнере необходимо выполнить следующие команды:<br/>
 docker build -t sysinfo .<br/>
 docker run -p 5000:5000 --name sys sysinfo<br/>
-Приложение будет доступно по адресу http://localhost:5000/<br/>
+Приложение будет доступно по адресу http://localhost:5000/
+
 Удаление контейнера:<br/>
 docker rm  sys<br/>
 docker rmi sysinfo:latest <br/>
