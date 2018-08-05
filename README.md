@@ -3,7 +3,7 @@
 
 Разработано с использованием следующих библиотек:
 <ul>	
-	<li>сервер: spring-boot, spring-web, spring-security, tomcat (embeded)</li>
+	<li>сервер: spring-boot, spring-web, spring-security, jwt, tomcat (embeded)</li>
 	<li>web-клиент: react, antd, primereact</li>
 	<li>android-клиент: react-native</li>
 </ul>
