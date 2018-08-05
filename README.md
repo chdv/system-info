@@ -3,7 +3,7 @@
 
 Разработано с использованием следующих библиотек:
 <ul>	
-	<li>сервер: spring-boot, spring-web, spring-security, tomcat (embeded)</li>
+	<li>сервер: spring-boot, spring-web, spring-security, jwt, tomcat (embeded)</li>
 	<li>web-клиент: react, antd, primereact</li>
 	<li>android-клиент: react-native</li>
 </ul>
@@ -59,6 +59,6 @@ docker rmi sysinfo:latest <br/>
 ![ScreenShot](https://github.com/chdv/system-info/blob/master/about/screenshots/native_01.png) ![ScreenShot](https://github.com/chdv/system-info/blob/master/about/screenshots/native_02.png)
 ![ScreenShot](https://github.com/chdv/system-info/blob/master/about/screenshots/native_03.png) ![ScreenShot](https://github.com/chdv/system-info/blob/master/about/screenshots/native_04.png)
 
-# Программа среди остальных приложений смартфона
+# Программа в списке приложений смартфона
 ![ScreenShot](https://github.com/chdv/system-info/blob/master/about/screenshots/native_05.png)
 
