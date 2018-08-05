@@ -36,18 +36,18 @@ class LoginFormInner extends Component {
                         localStorage.setItem(ACCESS_TOKEN, response.accessToken);
                         this.props.onLogin();
                     }).catch(error => {
-                    if(error.status === 401 || error.status === 403) {
-                        notification.error({
-                            message: 'Ошибка',
-                            description: 'Логин или пароль неверные!'
-                        });
-                    } else  {
-                        notification.error({
-                            message: 'Ошибка',
-                            description: 'Ошибка:' + error.message
-                        });
-                    }
-                });
+                        if(error.status === 401 || error.status === 403) {
+                            notification.error({
+                                message: 'Ошибка',
+                                description: 'Логин или пароль неверные!'
+                            });
+                        } else  {
+                            notification.error({
+                                message: 'Ошибка',
+                                description: 'Ошибка:' + error.message
+                            });
+                        }
+                    });
             }
         });
     }
