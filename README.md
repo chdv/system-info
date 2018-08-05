@@ -22,7 +22,7 @@
 
 Разработка велась в операционной системе Linux Ubuntu 18.04.
 
-В папке sysinfo-client находятся исходные коды web-клиента, в папке sysinfo-native android-клиента, в папке sysinfo-server исходный код серверной части.<br/>
+В папке sysinfo-client находятся исходные коды web-клиента, в папке sysinfo-native - android-клиента, в папке sysinfo-server исходный код серверной части.<br/>
 Web-клиент реализован в виде single page application, работающего без перезагрузки страницы. Реализован роутинг, позволяющий использовать историю браузера.<br/>
 Собранный дистрибутив в виде jar-файла находится в папке "dist/server-jar".<br/>
 # Запуск из командной строки
@@ -42,9 +42,9 @@ docker run -p 5000:5000 --name sys sysinfo<br/>
 docker rm  sys<br/>
 docker rmi sysinfo:latest <br/>
 # Установка и запуск android-версии
-Необходимо скопировать файл app-release.apk из директории dist/client-android на смартфон, установить средствами ОС и запустить.
+Необходимо скопировать файл app-release.apk из директории dist/client-android на смартфон, установить и запустить.
 
-# Скриншоты
+# Скриншоты web-версии
 
 ![ScreenShot](https://github.com/chdv/system-info/blob/master/about/screenshots/01.png)
 
@@ -53,3 +53,8 @@ docker rmi sysinfo:latest <br/>
 ![ScreenShot](https://github.com/chdv/system-info/blob/master/about/screenshots/03.png)
 
 ![ScreenShot](https://github.com/chdv/system-info/blob/master/about/screenshots/04.png)
+
+# Скриншоты android-версии
+
+![ScreenShot](https://github.com/chdv/system-info/blob/master/about/screenshots/native_01.png) ![ScreenShot](https://github.com/chdv/system-info/blob/master/about/screenshots/native_02.png)
+![ScreenShot](https://github.com/chdv/system-info/blob/master/about/screenshots/native_03.png) ![ScreenShot](https://github.com/chdv/system-info/blob/master/about/screenshots/native_04.png)
