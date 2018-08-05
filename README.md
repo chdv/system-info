@@ -4,24 +4,27 @@
 Разработано с использованием следующих библиотек:
 <ul>	
 	<li>сервер: spring-boot, spring-web, spring-security, tomcat (embeded)</li>
-	<li>клиент: react, antd, primereact</li>
+	<li>web-клиент: react, antd, primereact</li>
+	<li>android-клиент: react-native</li>
 </ul>
 Средства разработки и сборки: 
 <ul>	
 	<li>сервер: IntelliJ Idea, maven</li>
-	<li>клиент: IntelliJ WebStorm, npm, webpack, babel, eslint</li>
+	<li>web-клиент: IntelliJ WebStorm, npm, webpack, babel, eslint</li>
+	<li>android-клиент: Android Studio, IntelliJ WebStorm</li>
 </ul>
 Команды для сборки и запуска: 
 <ul>	
 	<li>сервер: <ul><li>mvn spring-boot:run (запуск)</li><li>mvn clean package (сборка)</li></ul>
-	<li>клиент: <ul><li>npm install (инициализация)</li><li>npm start (запуск)</li><li>npm run-script build (сборка)</li></ul></li>
+	<li>web-клиент: <ul><li>npm install (инициализация)</li><li>npm start (запуск)</li><li>npm run-script build (сборка)</li></ul></li>
+	<li>android-клиент: сборка и запуск с помощью react-native и gradle (см. инструкцию в официальной документации)</li>
 </ul>
 
 Разработка велась в операционной системе Linux Ubuntu 18.04.
 
-В папке sysinfo-client находятся исходные коды клиентской части, в папке sysinfo-server - серверной.<br/>
-Клиент реализован в виде single page application, работающего без перезагрузки страницы. Реализован роутинг, позволяющий использовать историю браузера.<br/>
-Собранный дистрибутив в виде jar-файла находится в папке "Dist".<br/>
+В папке sysinfo-client находятся исходные коды web-клиента, в папке sysinfo-native android-клиента, в папке sysinfo-server исходный код серверной части.<br/>
+Web-клиент реализован в виде single page application, работающего без перезагрузки страницы. Реализован роутинг, позволяющий использовать историю браузера.<br/>
+Собранный дистрибутив в виде jar-файла находится в папке "dist/server-jar".<br/>
 # Запуск из командной строки
 Команда для запуска приложения: <p>java -jar sysinfo-0.0.1-SNAPSHOT.jar</p>
 
@@ -38,6 +41,8 @@ docker run -p 5000:5000 --name sys sysinfo<br/>
 Удаление контейнера:<br/>
 docker rm  sys<br/>
 docker rmi sysinfo:latest <br/>
+# Установка и запуск android-версии
+Необходимо скопировать файл app-release.apk из директории dist/client-android на смартфон, установить средствами ОС и запустить.
 
 # Скриншоты
 
