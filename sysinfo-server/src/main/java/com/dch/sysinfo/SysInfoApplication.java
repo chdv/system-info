@@ -21,7 +21,7 @@ public class SysInfoApplication {
     private BrowserLauncher browserLauncher;
 
     @EventListener(ApplicationReadyEvent.class)
-    public void doSomethingAfterStartup() {
+    public void doAfterStartup() {
         if(browserLaunch) {
             browserLauncher.launch("http://localhost:" + serverPort);
         }
